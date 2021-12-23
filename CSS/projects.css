@@ -86,6 +86,7 @@ body
     padding-bottom: 45px;
     padding-top: 80px;
     margin: auto;
+    animation: content-fade 0.5s ease;
 }
 
 .projects-header
@@ -272,5 +273,17 @@ body
     {
         opacity: 1.0;
         transform: translateX(0px);
+    }
+}
+
+@keyframes content-fade 
+{
+    from
+    {
+        opacity: 0.0;
+    }
+    to
+    {
+        opacity: 1.0;
     }
 }
