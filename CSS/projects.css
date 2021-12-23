@@ -142,7 +142,6 @@ body
 .project-container:hover
 {
     background-color: #383838;
-    cursor: pointer;
 }
 
 .footer
