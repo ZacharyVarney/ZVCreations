@@ -103,6 +103,7 @@ body
     height: 140px;
     background-color: #303030;
     display: flex;
+    transition: all 0.3s ease;
 }
 
 .project-content-container
