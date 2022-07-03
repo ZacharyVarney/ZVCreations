@@ -155,11 +155,6 @@ body
     background-color: #414361;
     height: 5px;
     border: none;
-    width: 100%;
-}
-
-#hr1
-{
     width: 90%;
 }
 
@@ -201,8 +196,8 @@ body
 
 .patch-notes-container
 {
-    width: 100%;
-    margin: 50px 0px;
+    width: 90%;
+    margin: 50px auto;
     display: flex;
     flex-direction: column;
 }
@@ -292,14 +287,9 @@ body
         width: 95%;
     }
 
-    #hr1
+    .central-hr
     {
         width: 100%;
-    }
-
-    .patch-notes-container
-    {
-        align-items: center;
     }
 }
 
