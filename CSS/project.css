@@ -206,6 +206,29 @@ body
     color: #ECF0FF;
 }
 
+.patch-notes-list li
+{
+    padding: 3px;
+}
+
+.feedback-button
+{
+    text-decoration: none;
+    color: #ECF0FF;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin: 0px auto;
+    padding: 8px 16px;
+    border-radius: 99px;
+    transition: all 0.2s ease;
+}
+
+.feedback-button:hover
+{
+    background-color: #7F2CCB;
+}
+
 .footer
 {
     display: flex;
